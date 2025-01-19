@@ -1,0 +1,14 @@
+[project]
+name = "osv-data-collection"
+version = "0.1.0"
+description = "A project for accessing data from the OSV vulnerability database and exporting it to various formats for analysis and reporting"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
