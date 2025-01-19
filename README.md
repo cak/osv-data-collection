@@ -18,8 +18,8 @@ This project provides tools to download and process vulnerability data from the 
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone git@github.com:cak/osv-data-collection.git
+   cd osv-data-collection
    ```
 
 2. Create a virtual environment and activate it:
